@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Common -->
+    <style name="CubeBetaR">
+        <item name="android:fontFamily">@font/cube</item>
+    </style>
+   <style name="CubeBetaB">
+       <item name="android:fontFamily">@font/cube</item>
+   </style>
+    <style name="CubeRamiri">
+        <item name="android:fontFamily">@font/cuber_amiri</item>
+    </style>
+    <style name="CubeBa1amiri">
+        <item name="android:fontFamily">@font/cubeba1_amiri</item>
+    </style>
+    <style name="CubeRCHN">
+        <item name="android:fontFamily">@font/cuber_chn</item>
+    </style>
+    <style name="CubeBa1CHN">
+        <item name="android:fontFamily">@font/cubeba1_chn</item>
+    </style>
+
+    <!-- Main -->
+    <style name="MainTitle" parent="CubeBetaB">
+        <item name="android:textSize">27sp</item>
+        <item name="android:textColor">#fefffe</item>
+    </style>
+
+    <style name="MainTabButton" parent="CubeRCHN">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Play Music -->
+    <style name="PlayMusicTitle" parent="CubeRamiri">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="PlayMusicArtist" parent="CubeRamiri">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+    <style name="PlayMusicTime" parent="CubeBetaR">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
